@@ -49,7 +49,7 @@ Route::get('articles/{article_id}',['uses'=>'ArticleController@article','as'=>'p
 
 
 
-
+Route::post('users',['uses'=>'AuthController@register','as'=>'pageuser.register']);
 
 
 
